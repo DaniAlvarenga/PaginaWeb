@@ -1,0 +1,94 @@
+.services-section{
+    /* background: linear-gradient(50deg, rgba(166, 179, 123, 0.623), #eeebe696); */
+    /* background-image: url(../img/volante2.jpg); */
+
+     background: linear-gradient(to right, hsla(0, 0%, 4%, 0.959), rgb(44, 41, 0.959)),url(../img/volante2.jpg); 
+    margin-left: -63px;
+    margin-right: -63px;
+
+   background-size: cover;
+   padding: 60px 0; 
+
+   opacity: 10;
+
+   margin-top:120px;
+}
+
+.inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.section-title{
+    text-align: center;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.border{
+    width: 160px;
+    height: 2px;
+    background: #83ccdd;
+    margin: 4px auto;
+}
+
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-box{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.service-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #82ccdd;
+    color: #80ccdd;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+
+.service-icon i{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+}
+
+.service-box:hover .service-icon{
+    background: #4e99aa;
+    color: #ddd;
+}
+
+.service-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.service-desc{
+    font-size: 14px;
+}
+
+@media screen and (max-width:768px){
+    .service-box{
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .service-box{
+        max-width: 100%;
+    }
+}
