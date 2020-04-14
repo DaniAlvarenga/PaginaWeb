@@ -1,7 +1,9 @@
 /*Acerca de nosotros */
 
 .container1{
-    margin-bottom: 600px;
+
+    margin-top:55px;
+    margin-bottom: 650px;
 }
 .col-sm6{
     float: left;

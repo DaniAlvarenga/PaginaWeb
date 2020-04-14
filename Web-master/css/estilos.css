@@ -529,7 +529,7 @@ footer{
 }
 .post-slider .next{
     position: absolute;
-    top: 40%;
+    top: 47%;
     right: 30px;
     font-size: 2em;
     color: teal;
@@ -539,7 +539,7 @@ footer{
 }
 .post-slider .prev{
     position: absolute;
-    top: 40%;
+    top: 47%;
     left: 30px;
     font-size: 2em;
     color: teal;
@@ -563,7 +563,6 @@ footer{
     overflow: hidden;
     margin: 0px auto;
     padding:10px 0px 10px 0px ;
-    margin-bottom:0;
 
 
 
@@ -577,7 +576,6 @@ footer{
     margin: 0px 10px;
     border-radius: 5px;
 
-    margin-bottom:0;
 
 
     
