@@ -10,6 +10,11 @@
 
      margin-top: 20px;
     transition: 0.8s;
+
+    
+    align-items: center;
+    
+  
     
 } 
 
@@ -18,13 +23,14 @@
     color: black;
     margin-bottom: 7px; 
 
-    width: 13.5%;
+    width: 13.75%;
     
     font-size: 25px;
     font-family: tahoma;
 
     text-transform: uppercase;
 
+    margin-right: 80px;
    
 }
 
